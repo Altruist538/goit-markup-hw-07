@@ -1,0 +1,8 @@
+@media screen and (min-width: 768px) {
+	.container {
+		max-width: 720px;
+	}
+	.block-items {
+		width: calc((100%-24px) / 2);
+	}
+}

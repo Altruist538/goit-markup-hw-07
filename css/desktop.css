@@ -1,0 +1,22 @@
+@media screen and (min-width: 1200px) {
+	.container {
+		max-width: 1158px;
+	}
+	.section {
+		padding-top: 120px;
+		padding-bottom: 120px;
+	}
+	.block-items {
+		width: calc((100%-72px) / 4);
+	}
+	.blok-properties {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		width: 264px;
+		height: 112px;
+		border: 1px solid var(--white-logo-color);
+		border-radius: 4px;
+		background-color: var(--white-logo-color);
+	}
+}
