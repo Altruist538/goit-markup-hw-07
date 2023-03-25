@@ -10,6 +10,7 @@
 			href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
 		/>
 		<link rel="stylesheet" href="./css/styles.css" />
+		<link rel="stylesheet" href="./css/mobaile.css" />
 		<link rel="stylesheet" href="./css/tablet.css" />
 		<link rel="stylesheet" href="./css/desktop.css" />
 
@@ -42,7 +43,7 @@
 		<main>
 			<!-- hero section -->
 
-			<!-- <section class="hero">
+			<section class="hero">
 				<div class="container hero-container">
 					<h1 class="hero-caption">Effective Solutions for Your Business</h1>
 					<button data-modal-open type="button" class="hero-btn">Order Service</button>
@@ -96,7 +97,7 @@
 						</div>
 					</div>
 				</div>
-			</section> -->
+			</section>
 
 			<!-- /hero section -->
 			<!-- Properties section -->
@@ -153,28 +154,49 @@
 			</section>
 			<!-- /Properties section -->
 			<!-- What are we doing section -->
-			<!-- <section class="section section-what">
+			<section class="section section-what">
 				<div class="container">
 					<h2 class="title-what">What are we doing</h2>
 					<ul class="items items-picture">
-						<li><img src="./images/img1.jpg" alt="PC" width="360" /></li>
+						<li
+							><img
+								srcset="./images/img-mon.jpg 1x, ./images/img-mon@2x.jpg 2x"
+								src="./images/img-mon.jpg"
+								alt="PC"
+								width="360"
+						/></li>
 						<li>
-							<img src="./images/img2.jpg" alt="Аpplications" width="360" />
+							<img
+								srcset="./images/img-pr.jpg 1x, ./images/img-pr@2x.jpg 2x"
+								src="./images/img-pr.jpg"
+								alt="Аpplications"
+								width="360"
+							/>
 						</li>
 						<li>
-							<img src="./images/img3.jpg" alt="Phone and laptop" width="360" />
+							<img
+								srcset="./images/img-tel.jpg, ./images/img-tel@2x.jpg 2x"
+								src="./images/img-tel.jpg"
+								alt="Phone and laptop"
+								width="360"
+							/>
 						</li>
 					</ul>
 				</div>
-			</section> -->
+			</section>
 			<!-- /What are we doing section -->
 			<!-- Our Team section -->
-			<!-- <section class="section container-team">
+			<section class="section container-team">
 				<div class="container">
 					<h2 class="title-team">Our Team</h2>
-					<ul class="items items-picture">
+					<ul class="items items-picture-team">
 						<li class="team-picture">
-							<img src="./images/img4.jpg" alt="Mark Guerrero" width="264" />
+							<img
+								srcset="./images/img4.jpg 1x, ./images/img4-2x.jpg 2x"
+								src="./images/img4.jpg"
+								alt="Mark Guerrero"
+								width="264"
+							/>
 							<div class="team-blok-text">
 								<h3 class="title-team-name">Mark Guerrero</h3>
 								<p class="text-team">Product Designer</p>
@@ -205,7 +227,12 @@
 						</li>
 
 						<li class="team-picture">
-							<img src="./images/img5.jpg" alt="Tom Ford" width="264" />
+							<img
+								srcset="./images/img5.jpg 1x, ./images/img5-2x.jpg 2x"
+								src="./images/img5.jpg"
+								alt="Tom Ford"
+								width="264"
+							/>
 							<div class="team-blok-text">
 								<h3 class="title-team-name">Tom Ford</h3>
 								<p class="text-team">Frontend Developer</p>
@@ -236,7 +263,12 @@
 						</li>
 
 						<li class="team-picture">
-							<img src="./images/img6.jpg" alt="Camila Garcia" width="264" />
+							<img
+								srcset="./images/img6.jpg 1x, ./images/img6-2x.jpg 2x"
+								src="./images/img6.jpg"
+								alt="Camila Garcia"
+								width="264"
+							/>
 							<div class="team-blok-text">
 								<h3 class="title-team-name">Camila Garcia</h3>
 								<p class="text-team">Marketing</p>
@@ -267,7 +299,12 @@
 						</li>
 
 						<li class="team-picture">
-							<img src="./images/img7.jpg" alt="Daniel Wilson" width="264" />
+							<img
+								srcset="./images/img7.jpg 1x, ./images/img7-2x.jpg 2x"
+								src="./images/img7.jpg"
+								alt="Daniel Wilson"
+								width="264"
+							/>
 							<div class="team-blok-text">
 								<h3 class="title-team-name">Daniel Wilson</h3>
 								<p class="text-team">UI Designer</p>
@@ -298,9 +335,9 @@
 						</li>
 					</ul>
 				</div>
-			</section> -->
+			</section>
 			<!-- Customers section -->
-			<!-- <section class="section container-customers">
+			<section class="section container-customers">
 				<h2 class="title-customers">Customers</h2>
 				<ul class="customers-list items">
 					<li class="customers-item"
@@ -334,14 +371,14 @@
 								<use href="./images/symbol-defs.svg#icon-Logo-tag-line"></use></svg></a
 					></li>
 				</ul>
-			</section> -->
+			</section>
 
 			<!-- /Customers section -->
 
 			<!-- /Our Team section -->
 		</main>
-		<!-- <footer class="block-footer">
-			<div class="container">
+		<footer class="block-footer">
+			<div class="container container-footer">
 				<ul class="footer-item items">
 					<li>
 						<a href="./index.html" class="logo-bluу logo">Web<span class="logo-white">Studio</span></a>
@@ -380,19 +417,19 @@
 						<form class="footer-form" name="signup_form" autocomplete="on">
 							<label>
 								<input type="email" name="email" placeholder="E-mail" required />
-							</label>
-
+							</label></li>
+<li>
 							<button class="footer-subscribe" type="submit"
 								>Subscribe
 								<svg width="24" height="20">
 									<use href="./images/symbol-defs.svg#icon-icon-send"></use>
 								</svg>
-							</button>
+							</button></li>
 						</form>
 					</li>
 				</ul>
 			</div>
-		</footer> -->
+		</footer>
 		<script src="./mobile-menu.js"></script>
 		<script src="./modal.js"></script>
 	</body>
