@@ -740,8 +740,12 @@ body {
 	background-color: var(--firma-background-color);
 }
 .container-footer {
-	/* display: flex;
-	align-items: center; */
+}
+.footer-grup-item {
+}
+.logo-footer {
+	display: flex;
+	justify-content: center;
 }
 .text-footer {
 	max-width: 264px;
@@ -771,8 +775,8 @@ body {
 	display: flex;
 	justify-content: center;
 	flex-wrap: wrap;
-
 	row-gap: 72px;
+	column-gap: 24px;
 	/* gap: 120px; */
 }
 .footer-sicial-list {
@@ -802,6 +806,8 @@ body {
 	background-color: var(--icon-salat);
 }
 .footer-subscribe {
+	margin-top: 40px;
+
 	font-family: "Roboto";
 	font-style: normal;
 	font-weight: 500;
@@ -824,15 +830,21 @@ body {
 .footer-subscribe:is(:hover, :focus) {
 	background-color: var(--hero-btn-color);
 }
+/* .footer-grup-subscribe {
+	margin-left: 24px;
+	padding-top: 40px;
+} */
 .footer-form {
 	display: flex;
 	justify-content: center;
-	gap: 24px;
+	row-gap: 16px;
+	column-gap: 24px;
 }
 .footer-form input {
 	padding: 8px;
 	font-family: inherit;
-	width: 264px;
+	width: 396px;
+	/* width: 264px; */
 	height: 40px;
 	background-color: var(--firma-background-color);
 	border: 1px solid rgba(255, 255, 255, 0.3);
