@@ -79,6 +79,20 @@
 	.footer-item {
 		justify-content: left;
 	}
+	.footer-grup-subscribe {
+		align-items: flex-start;
+		flex-direction: row;
+		justify-content: flex-start;
+	}
+	.footer-subscribe {
+		margin-left: 0;
+		margin-right: 0;
+	}
+
+	.footer-form {
+		width: 100%;
+		flex-wrap: nowrap;
+	}
 }
 @media screen and (min-width: 768px) and (max-width: 1199px) {
 	.header-tel {
@@ -99,5 +113,7 @@
 	}
 	.footer-item {
 		max-width: 496px;
+		margin-right: auto;
+		margin-left: auto;
 	}
 }

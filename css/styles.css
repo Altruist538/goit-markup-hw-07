@@ -739,9 +739,8 @@ body {
 
 	background-color: var(--firma-background-color);
 }
-.container-footer {
-}
-.footer-grup-item {
+.footer-grup {
+	display: block;
 }
 .logo-footer {
 	display: flex;
@@ -806,16 +805,18 @@ body {
 	background-color: var(--icon-salat);
 }
 .footer-subscribe {
-	margin-top: 40px;
-
+	display: flex;
+	/* flex-wrap: wrap; */
+	justify-content: center;
+	margin-right: auto;
+	margin-left: auto;
 	font-family: "Roboto";
 	font-style: normal;
 	font-weight: 500;
 	font-size: 16px;
 	line-height: 1.5;
 	color: var(--white-color);
-	display: flex;
-	justify-content: center;
+
 	width: 165px;
 	height: 40px;
 	background: var(--firma-color);
@@ -830,20 +831,20 @@ body {
 .footer-subscribe:is(:hover, :focus) {
 	background-color: var(--hero-btn-color);
 }
-/* .footer-grup-subscribe {
-	margin-left: 24px;
-	padding-top: 40px;
-} */
-.footer-form {
+.footer-grup-subscribe {
 	display: flex;
-	justify-content: center;
-	row-gap: 16px;
-	column-gap: 24px;
+	width: 100%;
+	align-items: center;
+	flex-direction: column;
+}
+.footer-form {
+	width: 100%;
 }
 .footer-form input {
+	margin-bottom: 16px;
 	padding: 8px;
 	font-family: inherit;
-	width: 396px;
+	width: 100%;
 	/* width: 264px; */
 	height: 40px;
 	background-color: var(--firma-background-color);
