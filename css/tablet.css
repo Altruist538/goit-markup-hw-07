@@ -2,14 +2,15 @@
 	.container {
 		max-width: 768px;
 	}
-	/* .container-items {
-		display: flex;
-		flex-wrap: wrap;
-		column-gap: 24px;
-		row-gap: 72px;
-	} */
+	.menu-toggle {
+		display: none;
+	}
 	.header-logo {
 		margin-right: 120px;
+	}
+	.modal {
+		width: 408px;
+		height: 586px;
 	}
 	.items {
 		display: flex;
@@ -115,5 +116,6 @@
 		max-width: 565px;
 		margin-right: auto;
 		margin-left: auto;
+		column-gap: 24px;
 	}
 }

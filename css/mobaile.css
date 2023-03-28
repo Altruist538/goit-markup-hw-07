@@ -4,12 +4,19 @@
 	}
 	.container-customers {
 		align-items: center;
-		margin-left: auto;
-		margin-right: auto;
+	}
+	.modal {
+		width: 392px;
+		height: 586px;
 	}
 }
 @media screen and (min-width: 320px) and (max-width: 480px) {
 	.container-customers {
 		max-width: 396px;
+	}
+}
+@media (max-width: 767px) {
+	.menu {
+		display: none;
 	}
 }
