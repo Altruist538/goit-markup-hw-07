@@ -103,6 +103,9 @@
 		text-align: right;
 		row-gap: 4px;
 	}
+	.header-blok {
+		padding: 15px 0;
+	}
 	.customers-item {
 		width: 168px;
 	}
