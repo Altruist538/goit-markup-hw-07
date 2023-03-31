@@ -121,4 +121,7 @@
 		margin-left: auto;
 		column-gap: 24px;
 	}
+	.cards-portfolio {
+		row-gap: 72px;
+	}
 }
