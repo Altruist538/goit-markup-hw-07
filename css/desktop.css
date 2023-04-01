@@ -2,10 +2,6 @@
 	.container {
 		max-width: 1158px;
 	}
-	/* address {
-		margin-left: auto;
-	} */
-
 	.header-tel {
 		gap: 40px;
 	}
@@ -92,5 +88,8 @@
 	}
 	.footer-grup-logo {
 		margin-right: 120px;
+	}
+	.hero-portfolio {
+		margin-bottom: 72px;
 	}
 }

@@ -19,4 +19,7 @@
 	.menu {
 		display: none;
 	}
+	.hero-portfolio {
+		width: 280px;
+	}
 }
