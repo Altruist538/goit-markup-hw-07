@@ -134,7 +134,10 @@
 		row-gap: 72px;
 	}
 	.cards-portfolio:nth-child(2n + 1) {
-		display: flex;
 		justify-content: left;
+	}
+	.section-portfolio {
+		padding-top: 64px;
+		padding-bottom: 96px;
 	}
 }

@@ -92,4 +92,8 @@
 	.hero-portfolio {
 		margin-bottom: 72px;
 	}
+	.section-portfolio {
+		padding-top: 96px;
+		padding-bottom: 120px;
+	}
 }

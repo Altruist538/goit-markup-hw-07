@@ -706,8 +706,8 @@ body {
 
 .section-portfolio {
 	background-color: var(--white-color);
-	padding-top: 96px;
-	padding-bottom: 120px;
+	padding-top: 48px;
+	padding-bottom: 48px;
 }
 .hero-portfolio {
 	column-gap: 24px;
